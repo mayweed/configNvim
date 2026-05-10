@@ -16,5 +16,6 @@ vim.keymap.set({"n","v"},"<leader>f", function()
                 async = true,
             })
         end, { desc = "Format current file with conform" })
+    end
 }
 
