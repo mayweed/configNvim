@@ -1,3 +1,4 @@
-require("config.lazy")
-require("bepo").setup()
 require("core")
+require("core.options")
+require("bepo").setup()
+require("config.lazy")

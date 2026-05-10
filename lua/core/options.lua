@@ -1,14 +1,14 @@
 local opt = vim.opt
 
--- numéros de ligne
-opt.relativenumber = true --afficher nl relative à la pos actuelle du curseur
-opt.nu = true
-
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = "," 
+vim.g.maplocalleader = ","
+
+-- numéros de ligne
+opt.relativenumber = true --afficher nl relative à la pos actuelle du curseur
+opt.nu = true
 
 -- syntax related
 opt.encoding="utf-8"
