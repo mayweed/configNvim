@@ -2,6 +2,7 @@ local keymap = vim.keymap.set
 
 
 -- Conform keymaps
+-- Nice bindings : https://tduyng.com/blog/neovim-formatter-conform/
 keymap({ "n", "v" }, "<leader>cn", "<cmd>ConformInfo<cr>", { desc = "Conform Info" })
 
 keymap({ "n", "v" }, "<leader>f", function()
