@@ -18,4 +18,3 @@ vim.keymap.set({"n","v"},"<leader>f", function()
         end, { desc = "Format current file with conform" })
     end
 }
-
